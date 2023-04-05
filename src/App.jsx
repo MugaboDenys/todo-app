@@ -13,7 +13,7 @@ const App =()=> {
   }
 
   const handleDelete =(id) =>{
-    setTodo(prevTodo => prevTodo.filter((obj)=> obj.props.id != id))
+    setTodo(prevTodo => prevTodo.filter((obj)=> obj.props.id !== id))
   }
 
   const handleEnter = (event) => {
